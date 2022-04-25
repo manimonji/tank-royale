@@ -9,6 +9,16 @@ link-color = #6AF
 
 console-color = input-color
 
+::-webkit-scrollbar 
+  background: hsl(240, 15%, 8%) !important
+  border-inline: solid white 1px
+
+::-webkit-scrollbar-thumb 
+  background: white
+  border: 5px solid transparent
+  border-radius: 10px
+  background-clip: content-box
+
 p
   font-size: font-size
 
@@ -30,6 +40,9 @@ h3, h4, h5, h6
 
 a
   color: link-color
+
+.sidebar
+  border: none !important;
 
 .search-box input
   color: text-color !important
